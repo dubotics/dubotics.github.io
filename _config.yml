@@ -1,3 +1,25 @@
 safe: true
 lsi: false
 pygments: true
+
+paginate: 5
+paginate_path: "blog/page:num"
+
+name: "DUBotics"
+description: "Robotics club at the University of Washington"
+url: "http://dubotics.github.io"
+
+navigation:
+- title: Home
+  url: /
+- title: About Us
+  url: /about.html
+- title: Blog
+  url: /blog.html
+  layout: blog-post
+- title: Gallery
+  url: /gallery.html
+- title: Sponsors
+  url: /sponsors.html
+- title: Contact Us
+  url: /contact.html
