@@ -111,7 +111,7 @@ h1 {
 }
 
 .social-media a:hover {
-    background-color: #c79800;
+    background-color: #38265a;
     color: #fff;
 }
 
@@ -158,9 +158,14 @@ h3 {
     color: #fff;
 }
 
-.footer .nav .active a,
-.footer .nav a:hover {
-    background-color: #c79800
+.footer .nav .active a {
+    background-color: #fff;
+    color: #c79800;
+}
+
+.footer .nav a:hover,
+.footer .nav .active a:hover {
+    background-color: #c79800;
 }
 
 .footer h2 {
