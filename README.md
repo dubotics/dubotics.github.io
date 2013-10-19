@@ -14,4 +14,6 @@ This layout of this website is built on top of Twitter-Bootstrap, and is served 
 ### Build
 
 1. Install dependencies: `bundle install`
-2. Serve the site on `localhost:4000`: `bundle exec jekyll serve`
+2. Serve the site on `bundle exec jekyll serve --watch`
+3. Navigate to `localhost:4000` to locally view the website
+

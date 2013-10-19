@@ -11,8 +11,23 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+.DS_Store
 
 # YARD artifacts
 .yardoc
 _yardoc
 doc/
+
+# Jekyll artifacts
+Gemfile.lock
+test/dest
+*.swp
+*~
+_site/
+.bundle/
+bbin/
+gh-pages/
+site/_site/
+coverage
+.ruby-version
+.sass-cache
