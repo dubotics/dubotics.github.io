@@ -145,6 +145,12 @@ h1 {
     color: #38265a;
 }
 
+.article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom:15px;
+    margin-bottom:20px;
+}
+
 /* Formatting for headers in main content */
 h2,
 h3 {
