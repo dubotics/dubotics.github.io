@@ -1,0 +1,232 @@
+/*
+NOTES:
+
+Husky purple: #38265a;
+Husky gold:   #c79800;
+Gutter size:  15px;
+*/
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Background: Husky purple */
+body{
+    background-color:#38265a;
+    color:#fff;
+}
+
+.stripes {
+     /* Controls the size of the stripes */
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;
+    
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+                            color-stop(.25, rgba(255, 255, 255, .02)), color-stop(.25, transparent),
+                            color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .02)),
+                            color-stop(.75, rgba(255, 255, 255, .02)), color-stop(.75, transparent),
+                            to(transparent));
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .02) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 75%,
+                        transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .02) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 75%,
+                        transparent 75%, transparent);
+    background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .02) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 75%,
+                        transparent 75%, transparent);
+    background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .02) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 75%,
+                        transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, .02) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .02) 50%, rgba(255, 255, 255, .02) 75%,
+                        transparent 75%, transparent);
+}
+
+/* White background for main content */
+.main-content{
+    background-color:#f8f8f8;
+    color:#080808;
+    padding:15px;
+    border-radius:5px;
+}
+
+h2,h3 {
+    color:#38265a;
+}
+
+/* HEADER
+-------------------------------------------------- */
+
+.main-logo {
+    border:2px solid #fff;
+    margin:0 15px 15px 0;
+    width:120px;
+    height:120px;
+}
+
+h1{
+    font-size:40px;
+    margin:0;
+}
+
+@media (min-width: 768px) {
+  .main-logo {
+    border:5px solid #fff;
+    margin-right:30px;
+    width:150px;
+    height:150px;
+  }
+
+  h1{
+    font-size:60px;
+  }
+}
+
+.silent-link{
+    color:#fff;
+    text-decoration:none;
+}
+
+.silent-link:hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+.social-media{
+    margin-top:15px;
+}
+
+.icon-facebook{
+    margin-left:5px;
+}
+
+.social-media i{
+    margin:auto;
+    padding:0;
+    font-size:30px;
+}
+
+.social-media a{
+    display:inline-block;
+    text-decoration:none;
+    background-color:#fff;
+    color:#38265a;
+    height:40px;
+    width:40px;
+    text-align:center;
+    padding:5px;
+    margin-right:10px;
+    border-radius:5px;
+}
+
+.social-media a:hover{
+    background-color:#c79800;
+    color:#fff;
+}
+
+@media (min-width: 768px) {
+    .social-media i{
+        font-size:40px;
+    }
+    
+    .social-media a{
+        height:50px;
+        width:50px;
+    }
+}
+
+
+/* NAV STYLES
+-------------------------------------------------- */
+  
+@media (min-width: 768px) {
+  .navbar-brand{
+    display:none;
+  }
+}
+
+
+/* VARIOUS WIDGETS
+-------------------------------------------------- */
+
+.btn-lg{
+    padding:5px;
+}
+
+.timestamp{
+    color:#38265a;
+}
+
+
+/* FOOTER STYLES
+-------------------------------------------------- */
+
+.footer .nav li a {
+    padding:5px;
+}
+
+.footer .nav li a {
+    color:#fff;
+}
+
+.footer .nav .active a, .footer .nav a:hover{
+    background-color:#c79800;
+}
+
+.footer h2 {
+    color:#c79800;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  background-color:rgba(0,0,0,.8);
+  padding:5px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #000;
+}
+
+.carousel-indicators{
+    bottom:10px;
+}
+
+.carousel-inner > .item > img {
+  margin:0 auto;
+  min-width: auto;
+  height: 300px;
+}
+
+/* Bump up size of carousel content */
+@media (min-width: 768px) {
+  .carousel-indicators{
+    bottom:15px;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .carousel .item {
+    height: 450px;
+  }
+    
+  .carousel-inner > .item > img {
+    height: 450px;
+  }
+}
