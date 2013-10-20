@@ -1,20 +1,32 @@
 ---
 title: Gallery
 layout: general
+gallery: true
 ---
 
 <h2>Pictures here</h2>
 
-<p>Should I integrate this with our pictures on Facebook (automatically grab
-all images/certain albums), or are we going to curate specific pictures
-we want here?</p>
+<p>Currently, this is set up to grab images that are saved onto the website.
+Should I instead look at integrating this with our pictures on Facebook by
+automatically grabbing all images/certain albums?</p>
 
-<p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-lorem ipsum lorem ipsum lorem ipsum</p>
 
-<p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-lorem ipsum lorem ipsum lorem ipsum</p>
+<div class="form-group">
+    <button id="image-gallery-button" type="button" class="btn btn-lg btn-primary">
+        <i class="glyphicon glyphicon-picture"></i>
+        Launch Slideshow &raquo;
+    </button>
+</div>
+
+<div id="links" class="gallery-full">
+    {% for album in site.gallery %}
+        <h3>{{ album.title }}</h3>        
+        <div class="clearfix">
+            {% for image in album.images %}
+                <a href="{{ image.url }}" title="{{ image.caption }}" class="thumbnail gallery-thumbnail pull-left" data-gallery>
+                    <img src="{{ image.url }}" alt="{{ image.caption }}" class="img-responsive">
+                </a>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

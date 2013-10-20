@@ -33,3 +33,32 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="/js/jquery.js" type="text/javascript"></script>
         <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+        
+        {% if page.math %}
+            <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        {% endif %}
+        
+        {% if page.gallery %}
+            <script src="/js/jquery.blueimp-gallery.min.js"></script>
+            <script src="/js/bootstrap-image-gallery.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('#blueimp-gallery').data('useBootstrapModal', false);
+                    $('#blueimp-gallery').toggleClass('blueimp-gallery-controls', true);
+                });
+                
+                 $('#image-gallery-button').on('click', function (event) {
+                    event.preventDefault();
+                    blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
+                });
+            </script>
+        {% endif %}
+        
+        {% if page.carousel %}
+            <script>
+                $('#slideshowCarousel').carousel( {
+                    interval: {{ side.carousel.refresh_rate }}
+                });
+            </script>
+        {% endif %}
+        

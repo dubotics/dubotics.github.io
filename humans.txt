@@ -1,0 +1,18 @@
+/* TEAM */
+
+    Web designer & lead developer: Michael Lee
+    Site: http://michael0x2a.com
+    Contact: michael.lee.0x2a@gmail.com
+    
+    Photographs from: https://www.facebook.com/DUBotics/photos_stream
+
+/* SITE */
+
+    Doctype: HTML5
+    HTML framework: Twitter-Bootstrap 3
+    Deployment: Jekyll
+    Plugins: 
+        Font Awesome
+        Blueimp Bootstrap Image Gallery
+        Pygments
+        MathTex

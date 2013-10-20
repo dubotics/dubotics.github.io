@@ -230,6 +230,23 @@ a:hover {
     padding-left:0.5em;
 }
 
+.gallery-full {
+    margin-bottom:20px;
+}
+
+.gallery-thumbnail {
+    margin:0 4px 4px 0;
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    padding:0;
+}
+
+.gallery-thumbnail img {
+    height:100%;
+    width:auto;
+}
+
 /* SIDEBAR
 -------------------------------------------------- */
 

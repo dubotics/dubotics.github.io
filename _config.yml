@@ -2,6 +2,7 @@
 safe: true
 lsi: false
 pygments: true
+markdown: redcarpet
 
 # Overall site config
 name: "DUBotics"
@@ -41,3 +42,41 @@ carousel:
         - caption: Quadcopter
           url: /assets/carouselPictures/quadcopter.jpg
     refresh_rate: 5200
+    
+# Photo gallery config
+gallery:
+    - title: Album 1
+      images:
+        - caption: Team Photo
+          url: /assets/carouselPictures/team-photo.jpg
+        - caption: Mars Rover
+          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Quadcopter
+          url: /assets/carouselPictures/quadcopter.jpg
+        - caption: Team Photo
+          url: /assets/carouselPictures/team-photo.jpg
+        - caption: Mars Rover
+          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Quadcopter
+          url: /assets/carouselPictures/quadcopter.jpg
+        - caption: Team Photo
+          url: /assets/carouselPictures/team-photo.jpg
+        - caption: Mars Rover
+          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Quadcopter
+          url: /assets/carouselPictures/quadcopter.jpg
+        - caption: Team Photo
+          url: /assets/carouselPictures/team-photo.jpg
+        - caption: Mars Rover
+          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Quadcopter
+          url: /assets/carouselPictures/quadcopter.jpg
+    - title: Album 2
+      images:
+        - caption: Team Photo
+          url: /assets/carouselPictures/team-photo.jpg
+        - caption: Mars Rover
+          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Quadcopter
+          url: /assets/carouselPictures/quadcopter.jpg
+

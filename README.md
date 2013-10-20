@@ -6,18 +6,23 @@ This layout of this website is built on top of Twitter-Bootstrap, and is served 
 
 ## Build Instructions
 
-### Prerequisites
-
 1. Install Ruby (version 1.9.3 or 2.0.0)
 2. Install Bundler: `gem install bundler`
+3. Install dependencies: `bundle install`
+4. If you are running Windows, you MUST do the following due to a bug in the syntax highlighter
+    plugin used:
+    
+        gem uninstall pygments.rb --version "=0.5.2"
+        gem install pygments.rb --version "=0.5.0"
 
-### Build
+## Testing the website
 
-1. Install dependencies: `bundle install`
-2. Build and serve the site: `bundle exec jekyll serve --watch`
+1. Build and serve the site: `jekyll serve --watch`. 
+    1. This will automatically rebuild the website whenever any changes are made.
+    2. If you modify `_config.yml`, then you must restart the entire command.
 3. Navigate to `localhost:4000` in your web browser to locally view the website
 
-### Deploy
+## Deploy
 
 To deploy, simply push all changes to the master branch on Github:
 
