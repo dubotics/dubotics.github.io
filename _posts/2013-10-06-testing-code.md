@@ -7,7 +7,7 @@ author: Alice
 
 Here is an example of what code would look like inline -- `\Testing, testing`
 
-<!--excerpt-->
+<!--more-->
 
 And now, for a larger code block:
 

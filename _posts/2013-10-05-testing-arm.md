@@ -9,7 +9,7 @@ This post is an example of one that might be written by the
 arm team. The total sum of their posts can be viewed by 
 navigating to the appropriate category.
 
-<!--excerpt-->
+<!--more-->
 
 I'm operating under the assumption that we have only a small,
 relatively-constant set of fixed subteams:

@@ -1,29 +1,43 @@
+# Config values to make Jekyll mimic Github pages as much as possible
 safe: true
 lsi: false
 pygments: true
 
-excerpt_separator: <!--excerpt-->
-
-paginate: 5
-paginate_path: "blog/page:num"
-
+# Overall site config
 name: "DUBotics"
 description: "Robotics club at the University of Washington"
 url: "http://dubotics.github.io"
 
+# Blog config
+excerpt_separator: <!--more-->
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Navigation
 navigation:
-- title: Home
-  url: /index.html
-- title: Blog
-  url: /blog.html
-  layout: blog-post
-- title: About Us
-  url: /about.html
-- title: Our team
-  url: /teams.html
-- title: Sponsors
-  url: /sponsors.html
-- title: Gallery
-  url: /gallery.html
-- title: Contact Us
-  url: /contact.html
+    - title: Home
+      url: /index.html
+    - title: Blog
+      url: /blog.html
+      layout: blog-post
+    - title: About Us
+      url: /about.html
+    - title: Our team
+      url: /teams.html
+    - title: Sponsors
+      url: /sponsors.html
+    - title: Gallery
+      url: /gallery.html
+    - title: Contact Us
+      url: /contact.html
+  
+# Slideshow config (home page)
+carousel:
+    images:
+        - caption: Team Photo
+          url: /assets/carouselPictures/team-photo.jpg
+        - caption: Mars Rover
+          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Quadcopter
+          url: /assets/carouselPictures/quadcopter.jpg
+    refresh_rate: 5200

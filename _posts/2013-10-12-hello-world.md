@@ -11,7 +11,7 @@ This is an example of a blog post. It was posted under the
 "general" category, which can be used for arbitrary club-wide
 announcements or posts.
 
-<!--excerpt-->
+<!--more-->
 
 ### Excerpts
 

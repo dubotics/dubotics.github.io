@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
@@ -7,35 +7,21 @@ title: Home
     <div class="col-lg-9">
         <div id="slideshowCarousel" class="carousel slide">
             <ol class="carousel-indicators">
-                <li data-target="#slideshowCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#slideshowCarousel" data-slide-to="1"></li>
-                <li data-target="#slideshowCarousel" data-slide-to="2"></li>
+                {% for image in site.carousel.images %}
+                    <li data-target="#slideshowCarousel" data-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active"{% endif %}></li>
+                {% endfor %}
             </ol>
             <div class="carousel-inner">
-                <div class="item active container">
-                    <img src="assets/carouselPictures/team-photo.jpg" class="img-responsive" alt="Team photo">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <p>Team Photo</p>
+                {% for image in site.carousel.images %}
+                    <div class="item{% if forloop.first %} active{% endif %} container">
+                        <img src="{{ image.url }}" class="img-responsive" alt="{{ image.caption }}">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p>{{ image.caption }}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item container">
-                    <img src="assets/carouselPictures/mars-rover.jpg" class="img-responsive" alt="Mars rover">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <p>Mars Rover</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item container">
-                    <img src="assets/carouselPictures/quadcopter.jpg" class="img-responsive" alt="Quadcopter">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <p>Quadcopter</p>
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
             <a class="left carousel-control" href="#slideshowCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
             <a class="right carousel-control" href="#slideshowCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
