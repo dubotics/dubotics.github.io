@@ -325,6 +325,10 @@ a:hover {
     padding:0;
 }
 
+.carousel .item img {
+    margin: 0 auto;
+}
+
 .carousel-indicators {
     bottom: 10px; 
 }
