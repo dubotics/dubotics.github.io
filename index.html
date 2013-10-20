@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="row-fluid">
+<div class="row">
     <div class="col-lg-9">
         <div id="slideshowCarousel" class="carousel slide">
             <ol class="carousel-indicators">
@@ -13,7 +13,7 @@ title: Home
             </ol>
             <div class="carousel-inner">
                 <div class="item active container">
-                    <img src="assets/carouselPictures/team-photo.jpg">
+                    <img src="assets/carouselPictures/team-photo.jpg" class="img-responsive">
                     <div class="container">
                         <div class="carousel-caption">
                             <p>Team Photo</p>
@@ -21,7 +21,7 @@ title: Home
                     </div>
                 </div>
                 <div class="item container">
-                    <img src="assets/carouselPictures/mars-rover.jpg">
+                    <img src="assets/carouselPictures/mars-rover.jpg" class="img-responsive">
                     <div class="container">
                         <div class="carousel-caption">
                             <p>Mars Rover</p>
@@ -29,10 +29,10 @@ title: Home
                     </div>
                 </div>
                 <div class="item container">
-                    <img src="assets/carouselPictures/quadcopter.jpg">
+                    <img src="assets/carouselPictures/quadcopter.jpg" class="img-responsive">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p>Example 3</p>
+                            <p>Quadcopter</p>
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ title: Home
             <li>Photography</li>
             <li>Graphic design</li>
         </ul>
-        <p><a class="btn btn-lg btn-primary" href=#">Join the club! &raquo;</a></p>
-        <p><a class="btn btn-lg btn-primary" href=#">Sponsor us! &raquo;</a></p>
+        <p><a class="btn btn-lg btn-primary" href="/team.html">Join the club! &raquo;</a></p>
+        <p><a class="btn btn-lg btn-primary" href="/sponsors.html">Sponsor us! &raquo;</a></p>
     </div>
 </div>
 
@@ -65,16 +65,17 @@ title: Home
     <div class="col-md-6">
         {% assign post = site.posts.first %}
         <h2>Recent news: <a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-        <p><a href="{{ post.url }}">(Read more &raquo;)</a></p>
+        {{ post.content }}
+        <p><a href="{{ post.url }}">(Permalink &raquo;)</a></p>
     </div>
     <div class="col-md-6">
         <h2>About us</h2>
+        <p>A general introduction of what this club is about, and what we do.</p>
         <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         </p>
-        <p><a href="#">(Read more &raquo;)</a></p>
+        <p><a href="/about.html">(Read more &raquo;)</a></p>
     </div>
 </div>

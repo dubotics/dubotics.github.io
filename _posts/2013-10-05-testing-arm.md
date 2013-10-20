@@ -1,7 +1,8 @@
 ---
 layout: blog-post
-title: Testing 
+title: Testing arm
 category: arm-team
+author: Sam
 ---
 
 This post is an example of one that might be written by the 

@@ -14,14 +14,16 @@ url: "http://dubotics.github.io"
 navigation:
 - title: Home
   url: /index.html
-- title: About Us
-  url: /about.html
 - title: Blog
   url: /blog.html
   layout: blog-post
-- title: Gallery
-  url: /gallery.html
+- title: About Us
+  url: /about.html
+- title: Our team
+  url: /teams.html
 - title: Sponsors
   url: /sponsors.html
+- title: Gallery
+  url: /gallery.html
 - title: Contact Us
   url: /contact.html

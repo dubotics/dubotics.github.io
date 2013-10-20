@@ -1,5 +1,8 @@
+{% assign counter = 0 %}
+
 {% for post in site.posts %}
     {% if post.category == include.category %}
+        {% capture counter %}{{ counter | plus:1 }}{% endcapture %} 
         <div class="article">
             <div class="article-metadata">
                 {% include article-metadata.html article=post %}
@@ -11,3 +14,11 @@
         </div>
     {% endif %}
 {% endfor %}
+
+{% if counter == 0 %}
+    <div class="article">
+        <h2>Sorry!</h2>
+        <p>It looks like there no articles have been written yet for this
+        category.</p>
+    </div>
+{% endif %}

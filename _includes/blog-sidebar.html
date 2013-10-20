@@ -1,2 +1,12 @@
-<h2>Archives</h2>
-<p>(Links to posts go here)</p>
+<h2>Recent Articles</h2>
+
+{% include recent-articles.html %}
+
+<h2>Categories</h2>
+
+<ul class="listing">
+    {% for category in site.categories %}
+        {% assign name = category[0] %}
+        <li><a href="/{{ name }}">{{ name }}</a></li>
+    {% endfor %}
+</ul>

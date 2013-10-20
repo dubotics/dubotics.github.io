@@ -1,9 +1,17 @@
 /*
 NOTES:
 
-Husky purple: #38265a;
-Husky gold:   #c79800;
-Gutter size:  15px;
+Theme colors:
+-   Husky purple:  #38265a;
+-   Husky gold:    #c79800;
+
+Misc:
+-   Gutter size:   15px;
+
+Media queries:
+-   Small screen:  768px;
+-   Med screen:    992px;
+-   Large screens: 1200px;
 */
 
 /* GLOBAL STYLES
@@ -171,31 +179,6 @@ h1 {
     border-radius: 5px;
 }
 
-a:hover {
-    color: #c79800;
-}
-
-
-/* VARIOUS WIDGETS
--------------------------------------------------- */
-.btn-lg {
-    padding: 5px;
-}
-
-.timestamp {
-    color: #38265a;
-}
-
-.article {
-    border-bottom: 1px solid #ccc;
-    padding-bottom:15px;
-    margin-bottom:20px;
-}
-
-.article-metadata .group .term {
-    width:7em;
-}
-
 /* Formatting for headers in main content */
 h2,
 h3 {
@@ -206,11 +189,79 @@ h3 {
     font-size: 20px;
 }
 
+a:hover {
+    color: #c79800;
+}
+
+.article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom:15px;
+    margin-bottom:20px;
+}
+
+.article:last-child {
+    border-bottom:0;
+    margin-bottom:0;
+}
+
+.article-metadata .group .term {
+    width:7em;
+}
+
+.timestamp {
+    color: #38265a;
+}
+
+/* VARIOUS WIDGETS
+-------------------------------------------------- */
+
+.btn-primary {
+    padding: 5px 15px;
+    min-width: 10em;
+}
+
+.btn-primary:hover {
+    background-color: #c79800;
+    border-color: #c39400;
+}
+
+.listing {
+    margin-left:1em;
+    padding-left:0.5em;
+}
+
+/* SIDEBAR
+-------------------------------------------------- */
+
+.sidebar {
+    border-top: 1px solid #ddd;
+}
+
+.sidebar h2,
+.sidebar h3 {
+    font-size: 20px;
+}
+@media (min-width: 992px) { 
+    .sidebar {
+        border-top: 0;
+        border-left: 1px solid #ddd;
+    }
+}
+
+
 /* FOOTER STYLES
 -------------------------------------------------- */
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #c79800;
+}
+
 .footer .nav li a {
     padding: 5px;
-    color: #fff;
 }
 
 .footer .nav .active a {
@@ -221,6 +272,7 @@ h3 {
 .footer .nav a:hover,
 .footer .nav .active a:hover {
     background-color: #c79800;
+    color: #fff;
 }
 
 .footer h2 {
@@ -244,18 +296,14 @@ h3 {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 300px;
+    height: 250px;
+    width:100%;
     background-color: #000;
+    padding:0;
 }
 
 .carousel-indicators {
     bottom: 10px; 
-}
-
-.carousel-inner > .item > img {
-    margin: 0 auto;
-    min-width: auto;
-    height: 300px;
 }
 
 /* Bump up size of carousel content */
@@ -271,10 +319,6 @@ h3 {
     }
     
     .carousel .item {
-        height: 450px; 
-    }
-    
-    .carousel-inner > .item > img {
         height: 450px; 
     }
 }
