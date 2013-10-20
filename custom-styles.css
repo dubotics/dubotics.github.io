@@ -69,8 +69,30 @@ body {
 }
 
 h1 {
-    font-size: 40px; 
+    font-size: 50px; 
     margin: 0;
+}
+
+.page-title {
+    font-size:40px;
+    padding:0 15px 0 0;
+}
+
+.site-title {
+    display:none;
+}
+
+@media (min-width: 768px) { 
+    .page-title {
+        border-right: 2px solid #fff;
+    }
+
+    .site-title {
+        display: inline;        
+        font-size:25px;
+        margin:0;
+        padding:0;
+    }
 }
 
 .silent-link {
@@ -117,6 +139,21 @@ h1 {
 
 /* NAV STYLES
 -------------------------------------------------- */
+
+.navbar .nav .active a {
+    color: #c79800;
+}
+
+.navbar .nav a {
+    color: #38265a;
+}
+
+.navbar .nav li a:hover,
+.navbar .nav .active a:hover {
+    background-color:#c79800;
+    color:#fff;
+}
+
 @media (min-width: 768px) { 
     .navbar-brand {
         display: none;
@@ -132,6 +169,10 @@ h1 {
     color: #080808;
     padding: 15px;
     border-radius: 5px;
+}
+
+a:hover {
+    color: #c79800;
 }
 
 
@@ -151,10 +192,18 @@ h1 {
     margin-bottom:20px;
 }
 
+.article-metadata .group .term {
+    width:7em;
+}
+
 /* Formatting for headers in main content */
 h2,
 h3 {
     color: #38265a;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 /* FOOTER STYLES

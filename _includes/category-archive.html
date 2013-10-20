@@ -1,0 +1,13 @@
+{% for post in site.posts %}
+    {% if post.category == include.category %}
+        <div class="article">
+            <div class="article-metadata">
+                {% include article-metadata.html article=post %}
+            </div>
+            <div class="article-content">
+                {{ post.excerpt }}
+            </div>
+            <p><a href="{{ post.url }}">Read more &raquo;</a></p>
+        </div>
+    {% endif %}
+{% endfor %}

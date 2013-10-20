@@ -2,6 +2,8 @@ safe: true
 lsi: false
 pygments: true
 
+excerpt_separator: <!--excerpt-->
+
 paginate: 5
 paginate_path: "blog/page:num"
 
@@ -11,7 +13,7 @@ url: "http://dubotics.github.io"
 
 navigation:
 - title: Home
-  url: /
+  url: /index.html
 - title: About Us
   url: /about.html
 - title: Blog

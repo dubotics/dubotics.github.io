@@ -6,7 +6,21 @@
                     <img src="/assets/DUBotics-Logo-Medium.jpg" width="60" height="60" class="main-logo pull-left">
                     </a>
                     <div class="page-header-links pull-left">
-                        <h1><a href="/" class="silent-link">DUBotics</a></h1>
+                        {% if page.layout == "blog-post" %}
+                            <h1><a href="/" class="silent-link">
+                                <span class="page-title">Article</span> 
+                                <span class="site-title">DUBotics</span>
+                            </a></h1>
+                        {% elsif page.title != "Home" %}
+                            <h1><a href="/" class="silent-link clearfix">
+                                <span class="page-title">{{ page.title }}</span> 
+                                <span class="site-title">DUBotics</span>
+                            </a></h1>
+                        {% else %}
+                            <h1><a href="/" class="silent-link">
+                                DUBotics
+                            </a></h1>
+                        {% endif %}
                         <div class="social-media">
                             <p><a href="https://www.facebook.com/DUBotics"><i class="icon-facebook"></i></a>
                                 <a href="/rss.xml"><i class="icon-rss"></i></a>

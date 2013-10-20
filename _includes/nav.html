@@ -1,7 +1,7 @@
 <ul class="{{ include.classes }}">
     {% for link in site.navigation %}
         {% assign current = nil %}
-        {% if page.url == link.url or page.layout == link.layout %}
+        {% if (page.url == link.url) or (page.url == link.url") or (page.layout == link.layout) %}
             {% assign current = 'active' %}
         {% endif %}
         

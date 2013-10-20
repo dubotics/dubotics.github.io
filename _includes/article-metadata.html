@@ -1,0 +1,15 @@
+<h2><a href="{{ include.article.url }}">{{ include.article.title }}</a></h2>
+<dl>
+    <span class="group clearfix">
+        <dt class="term author pull-left">Author:</dt>
+        <dd class="definition pull-left">{{ include.article.author }}</dd>
+    </span>
+    <span class="group clearfix">
+        <dt class="term date pull-left">Date:</dt>
+        <dd class="definition pull-left">{{ include.article.date | date_to_string }}</dd>
+    </span>
+    <span class="group clearfix">
+        <dt class="term category pull-left">Category:</dt>
+        <dd class="definition pull-left"><a href="/{{ include.article.categories }}">{{ include.article.categories }}</a></dd>
+    </span>
+</dl>
