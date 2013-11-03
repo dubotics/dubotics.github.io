@@ -257,18 +257,22 @@ a:hover {
 -------------------------------------------------- */
 
 .sidebar {
-    border-top: 1px solid #ddd;
-    padding-right: 15px;
+    border-top: 1px solid #888;
+    margin: 0 15px;
+    margin-top: 60px;
 }
 
 .sidebar h2,
 .sidebar h3 {
     font-size: 20px;
 }
+
 @media (min-width: 992px) { 
     .sidebar {
         border-top: 0;
         border-left: 1px solid #ddd;
+        margin:0;
+        padding:0 15px;
     }
 }
 
@@ -278,6 +282,7 @@ a:hover {
 
 .footer a {
     color: #fff;
+    text-decoration:underline;
 }
 
 .footer a:hover {
@@ -286,6 +291,7 @@ a:hover {
 
 .footer .nav li a {
     padding: 5px;
+    text-decoration:none;
 }
 
 .footer .nav .active a {
@@ -301,6 +307,10 @@ a:hover {
 
 .footer h2 {
     color: #c79800;
+}
+.footer .table-hover > tbody > tr:hover > td,
+.footer .table-hover > tbody > tr:hover > th{
+    background-color:rgba(255, 255, 255, 0.2);
 }
 
 /* CUSTOMIZE THE CAROUSEL
