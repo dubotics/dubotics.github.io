@@ -147,6 +147,10 @@ h1 {
     color: #fff;
 }
 
+.alert {
+    margin-top:30px;
+}
+
 /* NAV STYLES
 -------------------------------------------------- */
 
@@ -191,7 +195,8 @@ h3 {
     font-size: 20px;
 }
 
-a:hover {
+a:hover,
+a:active {
     color: #c79800;
 }
 
@@ -217,6 +222,16 @@ a:hover {
 .timestamp {
     color: #38265a;
 }
+
+.table-responsive{
+    border:0;
+}
+
+.table-responsive > .table{
+    background-color:transparent;
+}
+
+
 
 /* VARIOUS WIDGETS
 -------------------------------------------------- */
@@ -251,6 +266,14 @@ a:hover {
 .gallery-thumbnail img {
     height:100%;
     width:auto;
+}
+
+.sponsor-unit{
+    margin-bottom:15px;
+}
+
+.sponsor-logo {
+    width:180px;
 }
 
 /* SIDEBAR
@@ -308,6 +331,7 @@ a:hover {
 .footer h2 {
     color: #c79800;
 }
+
 .footer .table-hover > tbody > tr:hover > td,
 .footer .table-hover > tbody > tr:hover > th{
     background-color:rgba(255, 255, 255, 0.2);
