@@ -169,7 +169,7 @@ of the programming language used, and inline code is delineated with a single ba
 
 You can include math by doing so:
 
----
+    ---
     title: Testing math
     author: Alice
     category: general
