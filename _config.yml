@@ -82,3 +82,22 @@ gallery:
         - caption: Quadcopter
           url: /assets/carouselPictures/quadcopter.jpg
 
+# Meeting times and locations
+meeting_times:
+    -   team_name: General Meetings
+        time: Thu, 5-6pm
+        location: SMI 120
+        url: http://uw.edu/maps/?smi
+    -   team_name: Arm
+        time: Fri, 5-7pm
+        location: MEB 238
+        url: http://uw.edu/maps/?meb
+    -   team_name: Chassis
+        time: TBD
+        location: TBD
+        url: http://uw.edu/maps/
+    -   team_name: Control Systems
+        time: Sat, 3-4pm
+        location: MEB 238
+        url: http://uw.edu/maps/?meb
+        

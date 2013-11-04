@@ -8,26 +8,13 @@
             </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>General meetings</td>
-            <td>Thu, 5-6pm</td>
-            <td><a href="http://uw.edu/maps/?smi">SMI 120</a></td>
-        </tr>
-        <tr>
-            <td>Control Systems</td>
-            <td>Sat, 3-4pm</td>
-            <td><a href="http://uw.edu/maps/?meb">MEB 238</a></td>
-        </tr>
-        <tr>
-            <td>Arm</td>
-            <td>Fri, 5-7pm</td>
-            <td><a href="http://uw.edu/maps/?meb">MEB 238</a></td>
-        </tr>
-        <tr>
-            <td>Chassis</td>
-            <td>TBD</td>
-            <td>TBD</td>
-        </tr>
+        {% for meeting in site.meeting_times %}
+            <tr>
+                <td>{{ meeting.team_name }}</td>
+                <td>{{ meeting.time }}</td>
+                <td><a href="{{ meeting.url }}">{{ meeting.location }}</a></td>
+            </tr>
+        {% endfor %}
         </tbody>
     </table>
 </div>
