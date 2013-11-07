@@ -38,50 +38,50 @@ navigation:
 carousel:
     images:
         - caption: Team Photo
-          url: /assets/carouselPictures/team-photo.jpg
+          url: /assets/past_robots/team-photo.jpg
         - caption: Mars Rover
-          url: /assets/carouselPictures/mars-rover.jpg
+          url: /assets/competition_2013/full-rover.jpg
         - caption: Quadcopter
-          url: /assets/carouselPictures/quadcopter.jpg
+          url: /assets/past_robots/quadcopter.jpg
     refresh_rate: 5200
     
 # Photo gallery config
 gallery:
-    - title: Album 1
+    - title: University Rover Competition (2013)
       images:
-        - caption: Team Photo
-          url: /assets/carouselPictures/team-photo.jpg
-        - caption: Mars Rover
-          url: /assets/carouselPictures/mars-rover.jpg
-        - caption: Quadcopter
-          url: /assets/carouselPictures/quadcopter.jpg
-        - caption: Team Photo
-          url: /assets/carouselPictures/team-photo.jpg
-        - caption: Mars Rover
-          url: /assets/carouselPictures/mars-rover.jpg
-        - caption: Quadcopter
-          url: /assets/carouselPictures/quadcopter.jpg
-        - caption: Team Photo
-          url: /assets/carouselPictures/team-photo.jpg
-        - caption: Mars Rover
-          url: /assets/carouselPictures/mars-rover.jpg
-        - caption: Quadcopter
-          url: /assets/carouselPictures/quadcopter.jpg
-        - caption: Team Photo
-          url: /assets/carouselPictures/team-photo.jpg
-        - caption: Mars Rover
-          url: /assets/carouselPictures/mars-rover.jpg
-        - caption: Quadcopter
-          url: /assets/carouselPictures/quadcopter.jpg
-    - title: Album 2
+        - caption: Robot frame
+          url: /assets/competition_2013/robot-frame.jpg
+        - caption: The electronics
+          url: /assets/competition_2013/electronics.jpg
+        - caption: Checking the rover
+          url: /assets/competition_2013/checking-the-rover.jpg
+        - caption: Last minute fixes
+          url: /assets/competition_2013/last-minute.jpg
+        - caption: The Cerebus rover
+          url: /assets/competition_2013/full-rover.jpg
+    - title: Building the Cerebus Rover
       images:
-        - caption: Team Photo
-          url: /assets/carouselPictures/team-photo.jpg
-        - caption: Mars Rover
-          url: /assets/carouselPictures/mars-rover.jpg
+        - caption: Planning the electrical hardware
+          url: /assets/building_2013/planning-electronics.jpg
+        - caption: Planning the driver interface
+          url: /assets/building_2013/driver-interface.jpg
+        - caption: Learning to solder
+          url: /assets/building_2013/solder.jpg
+        - caption: In assembly
+          url: /assets/building_2013/cerebus-rover.jpg
+        - caption: The control station
+          url: /assets/building_2013/control-station.jpg
+    - title: Past robots
+      images:
         - caption: Quadcopter
-          url: /assets/carouselPictures/quadcopter.jpg
-
+          url: /assets/past_robots/quadcopter.jpg
+        - caption: Assembling the quadcopter
+          url: /assets/past_robots/assembling-quadcopter.jpg
+        - caption: Tracker
+          url: /assets/past_robots/tracker.jpg
+        - caption: Team photo
+          url: /assets/past_robots/team-photo.jpg
+          
 # Meeting times and locations
 meeting_times:
     -   team_name: General Meetings
