@@ -3,6 +3,7 @@ layout: blog-post
 title: General Meetings are now Bi-Weekly; Next Meeting is Thurs. Nov 14
 author: Collin Sutton
 category: general
+parent: /blog.html
 ---
 
 Hello, everyone!

@@ -93,3 +93,16 @@
                 </div> <!--/.nav-collapse -->
             </div>
             <div class="main-content">
+                {% if page.parent %}
+                    {% assign parent_name = nil %}
+                    {% for link in site.navigation %}
+                        {% if link.url == page.parent %}
+                            {% assign parent_name = link.title %}
+                        {% endif %}
+                    {% endfor %}
+                    <ol class="breadcrumb">
+                        <li class="parent"><a href="{{ page.parent }}">{{ parent_name }}</a></li>
+                        <li class="current">{{ page.title }}</li>
+                    </ol>
+                {% endif %}
+            

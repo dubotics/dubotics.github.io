@@ -3,6 +3,7 @@ layout: blog-post
 title: 2nd General Meeting
 author: Kevin Cueto
 category: general
+parent: /blog.html
 ---
 
 Hello everyone!

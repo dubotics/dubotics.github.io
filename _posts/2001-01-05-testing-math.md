@@ -4,6 +4,7 @@ title: Testing Mathematical Equations
 math: true
 author: Euler
 category: control-systems-team
+parent: /blog.html
 ---
 
 This is an example of how to include mathematical equations in a page. 

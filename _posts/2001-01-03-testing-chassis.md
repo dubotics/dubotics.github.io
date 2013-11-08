@@ -3,6 +3,7 @@ layout: blog-post
 title: Chassis designs
 author: Emma
 category: chassis-team
+parent: /blog.html
 ---
 
 Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum

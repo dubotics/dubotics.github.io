@@ -3,6 +3,7 @@ layout: blog-post
 title: General Meetings Details
 author: 
 category: general
+parent: /blog.html
 ---
 
 Hello everyone,

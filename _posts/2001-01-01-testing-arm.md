@@ -3,6 +3,7 @@ layout: blog-post
 title: Testing arm
 category: arm-team
 author: Sam
+parent: /blog.html
 ---
 
 This post is an example of one that might be written by the 

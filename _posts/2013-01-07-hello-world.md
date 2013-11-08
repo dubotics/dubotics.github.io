@@ -3,6 +3,7 @@ layout: blog-post
 title: General Announcement
 author: Bob 
 category: general
+parent: /blog.html
 ---
 
 ### About

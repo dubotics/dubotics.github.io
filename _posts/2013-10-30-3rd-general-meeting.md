@@ -3,6 +3,7 @@ layout: blog-post
 title: 3rd meeting details
 author: Kevin Cueto
 category: general
+parent: /blog.html
 ---
 
 Hello everyone!

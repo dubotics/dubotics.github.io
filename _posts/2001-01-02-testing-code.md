@@ -4,6 +4,7 @@ title: Testing code
 category: control-systems-team
 author: Alice
 code: true
+parent: /blog.html
 ---
 
 Here is an example of what code would look like inline -- `std::cout << "Hello world" << std::endl;`.

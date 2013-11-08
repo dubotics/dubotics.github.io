@@ -3,6 +3,7 @@ layout: blog-post
 title: Testing basic formatting
 author: Dan
 category: public-relations-team
+parent: /blog.html
 ---
 
 ### Paragraph:
