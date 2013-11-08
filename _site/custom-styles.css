@@ -209,6 +209,10 @@ a:active {
     color: #c79800;
 }
 
+p+ul {
+    margin-bottom:10px;
+}
+
 .article {
     border-bottom: 1px solid #ddd;
     padding-bottom:15px;

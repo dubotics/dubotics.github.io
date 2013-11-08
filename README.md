@@ -8,17 +8,23 @@ using [Jekyll][jk].
 [tb]: http://getbootstrap.com/
 [jk]: http://jekyllrb.com/
 
-## Build Instructions
+## Initial Build Instructions
+
+Note: You will only have to follow the steps under this section once, when you are setting
+up your local environment for the very first time. These instructions assume that you're 
+somewhat familiar with using the command line, and with using git.
 
 Note: The following instructions were almost directly copied from Github's [instructions][gh] 
 on setting up Jekyll. 
 
 1.  Install [Ruby][rb] (version 1.9.3 or 2.0.0); possibly higher
 2.  Install [Bundler][bn]: `gem install bundler`
-3.  Install dependencies: `bundle install` (run this within the project folder)
-4.  If you are running Windows, you may need to do the following due to a bug in the syntax         
+3.  Download a copy of this website: `git clone https://github.com/dubotics/dubotics.github.io.git`.
+4.  Navigate to the newly created folder within the command line.
+5.  Install dependencies: `bundle install` (run this within the project folder)
+6.  If you are running Windows, you may need to do the following due to a bug in the syntax         
     highlighter we use. This may be fixed in future versions of `pygments.rb`, so try this
-    only if it continues to throw an error:
+    only if testing the website throws an error:
     
         gem uninstall pygments.rb --version "=0.5.2"
         gem install pygments.rb --version "=0.5.0"
@@ -28,6 +34,10 @@ on setting up Jekyll.
 [rb]: https://www.ruby-lang.org/en/
 
 ## Testing the website
+
+If you want to test the local copy of the website, perform the following steps. 
+I recommend that after every edit you make to the website, you do a local test first 
+before deploying the code.
 
 1.  Build and serve the site: `jekyll serve --watch`. 
     1. This will automatically rebuild the website whenever any changes are made.
@@ -86,6 +96,7 @@ All blogposts must start with the following conventions:
         author: Alice
         category: general
         layout: blog-post
+        parent: /blog.html
         ---
         
         This is the "excerpt" portion of the blog post. This portion serves as a hook to 
