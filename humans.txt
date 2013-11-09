@@ -12,7 +12,9 @@
     HTML framework: Twitter-Bootstrap 3
     Deployment: Jekyll
     Plugins: 
-        Font Awesome
         Blueimp Bootstrap Image Gallery
         Pygments
         MathTex
+    Fonts:
+        Font Awesome
+        Robotaur

@@ -285,7 +285,8 @@ p+ul {
     margin-bottom:15px;
 }
 
-.sponsor-logo {
+.sponsor-logo,
+.sponsor-logo img {
     width:180px;
 }
 
