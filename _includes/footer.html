@@ -42,9 +42,9 @@
         {% endif %}
         
         {% if page.gallery %}
-            <script src="/js/jquery.blueimp-gallery.min.js"></script>
-            <script src="/js/bootstrap-image-gallery.min.js"></script>
-            <script>
+            <script src="/js/jquery.blueimp-gallery.min.js" type="text/javascript"></script>
+            <script src="/js/bootstrap-image-gallery.min.js" type="text/javascript"></script>
+            <script type="text/javascript">
                 $(document).ready(function () {
                     $('#blueimp-gallery').data('useBootstrapModal', false);
                     $('#blueimp-gallery').toggleClass('blueimp-gallery-controls', true);
@@ -58,9 +58,11 @@
         {% endif %}
         
         {% if page.carousel %}
-            <script>
-                $('#slideshowCarousel').carousel( {
-                    interval: {{ side.carousel.refresh_rate }}
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#slideshowCarousel').carousel({
+                        interval: {{ site.carousel.refresh_rate }}
+                    })
                 });
             </script>
         {% endif %}
