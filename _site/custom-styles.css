@@ -76,9 +76,13 @@ body {
     height: 100px;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:700);
+
 h1 {
     font-size: 50px; 
     margin:0;
+    font-family:'Cabin Condensed', sans-serif;
+    font-weight:bold;
 }
 
 .page-title {
@@ -242,6 +246,10 @@ p+ul {
 
 .table-responsive > .table{
     background-color:transparent;
+}
+
+.leader-title{
+    display:block;
 }
 
 
