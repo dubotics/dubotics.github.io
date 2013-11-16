@@ -252,6 +252,9 @@ p+ul {
     display:block;
 }
 
+.section{
+    margin-bottom:30px;
+}
 
 
 /* VARIOUS WIDGETS
@@ -265,6 +268,11 @@ p+ul {
 .btn-primary:hover {
     background-color: #c79800;
     border-color: #c39400;
+}
+
+.call-to-action .btn {
+    min-width:5em;
+    padding:5px 10px;
 }
 
 .listing {
@@ -361,11 +369,6 @@ p+ul {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-    margin-bottom: 60px; 
-}
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
