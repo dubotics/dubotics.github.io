@@ -127,20 +127,21 @@ git commit -m "Add a description of what changes you made here"
 git push origin master
 ```
 
-The very first line updates your code to the latest version. Always do this BEFORE you start
-editing code. If you don't, bad things can happen, and it'll be a pain to fix it.
+1.  The very first line **updates your code** to the latest version. Always do this BEFORE you 
+    start editing code. If you don't, bad things can happen, and it'll be a pain to fix it.
+2.  Once you **pull** the latest changes, you can **edit the files**. If you're using Windows, 
+    you can always use Notepad. Notepad is kinda bad though, so I prefer using 
+    [Notepad++](http://notepad-plus-plus.org/), but it doesn't matter which text editor you use. 
+    Use whatever you like. 
 
-Once you **pull** the latest changes, you can edit your files. If you're using Windows, you can
-always use Notepad. Notepad is kinda bad though, so I prefer using 
-[Notepad++](http://notepad-plus-plus.org/), but it doesn't matter which text editor you use. Use whatever you like. 
-
-If you're using Mac/Linux, I'm assuming you have a decent editor bundled by default you can use.
-
-Once you've finished editing your code, save any changes and type the next three lines. 
-
-The second line adds any new files you might have made to the **commit**.
-The third line "commits" your changes, and saves a description of _what_ changes you made.
-The final line pushes all changes to github, so others can see it.
+    If you're using Mac/Linux, I'm assuming you have a decent editor bundled by default you can use.
+    
+    Once you've finished editing your code, save any changes and type the next three lines. 
+3.  The second line **adds any new files** you might have made to the **commit**.
+4.  The third line **commits your changes**, and saves a description of _what_ changes you made.
+5.  The final line **pushes** all changes to github, so others can see it. It will ask you for your 
+    username and password: just use your github username and password. If your password doesn't
+    show up while you're typing, that's normal. Just type it out, and hit enter.
 
 Got it? Your workflow should be something like:
 
