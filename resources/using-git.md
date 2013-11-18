@@ -38,10 +38,12 @@ leave UW.
 Once you have an account, <a href="mailto:michael.lee.0x2a@gmailcom">email me</a> your username
 so I can add you to the "dubotics" organization.
 
+Most of you should already have completed this step.
+
 
 <h2 id="install-git">2: Install Git</h2>
 
-You can download Git at these links:
+Next, install Git. Click on the appropriate link below:
 
 -   **Windows**: <http://git-scm.com/download/win>
 -   **Mac**: <http://git-scm.com/download/mac>
@@ -49,8 +51,8 @@ You can download Git at these links:
 
 The installer will ask you to configure a few things. Accept all the default options, and keep clicking 'next'. 
 
-If you use Windows, you will need to add "git" to your path so you can use it from the command line.
-Do the following:
+If you use **Windows**, you will need to add "git" to your path so you can use it directly 
+from the command line. Do the following:
 
 1.  Windows 8:
     1.  Go to the start screen, and type "Edit the system environment variables". Make sure to
@@ -87,7 +89,8 @@ Something has gone wrong.
 
 Each project is stored in their own "repository". We currently have two -- one for 
 [the robot](https://github.com/dubotics/robocrisp-robot) and another for 
-[the base station](https://github.com/dubotics/robocrisp-base). We're now going to grab a 
+[the base station](https://github.com/dubotics/robocrisp-base). Each repository is completely
+separate from the other, and is completely self-contained. We're now going to grab a 
 copy of both.
 
 Within your terminal, navigate to the folder you want to put your copy of the two repos in.
@@ -127,6 +130,8 @@ git commit -m "Add a description of what changes you made here"
 git push origin master
 ```
 
+Here's what they do:
+
 1.  The very first line **updates your code** to the latest version. Always do this BEFORE you 
     start editing code. If you don't, bad things can happen, and it'll be a pain to fix it.
 2.  Once you **pull** the latest changes, you can **edit the files**. If you're using Windows, 
@@ -145,12 +150,14 @@ git push origin master
 
 Got it? Your workflow should be something like:
 
-1.  `git pull origin master`
+1.  Pull the latest changes:  
+    `git pull origin master`
 2.  Make and save changes
-3.  `git add -A`  
+3.  Push your changes:  
+    `git add -A`  
     `git commit -m "I changed X to do Y because of Z"`  
     `git push origin master`
-4.  Goto step 2
+4.  Goto step 2 if you're not done writing code
 
 
 <h2 id="test-it-out">6: Test it out!</h2>
