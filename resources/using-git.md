@@ -49,10 +49,26 @@ Next, install Git. Click on the appropriate link below:
 -   **Mac**: <http://git-scm.com/download/mac>
 -   **Linux**: <http://git-scm.com/download/linux>
 
-The installer will ask you to configure a few things. Accept all the default options, and keep clicking 'next'. 
+The installer will ask you to configure a few things. Accept all the default options, and keep clicking 'next'. If you run Windows, you may see an option that asks you to add Git into 
+the Window's PATH. Be sure to select that.
 
-If you use **Windows**, you will need to add "git" to your path so you can use it directly 
-from the command line. Do the following:
+<h2 id="test-installation">3: Test your installation</h2>
+
+Before we move on, let's make sure we installed git correctly.
+
+-   **Windows 8:** Go to the start screen, and type "Powershell". Open the program.
+-   **Not Windows 8:** Click "start", and type "Powershell" inside the "run" textbox. 
+    Open the program.
+-   **Macs:** Open the console/command line/terminal whatever the hell it's called.
+    I don't own a mac, so idk where it's located (it might be under /Applications/Utilities)
+-   **Linux:** Open the console/terminal.
+
+Type in `git`. A bunch of text should appear, displaying usage information. If so, congrats!
+Everything is working, and you can skip to the next section. 
+
+If your console says it could not locate git, stop. Something has gone wrong. 
+
+If you're using Windows, try the following to add Git to your path, and retest:
 
 1.  Windows 8:
     1.  Go to the start screen, and type "Edit the system environment variables". Make sure to
@@ -68,21 +84,8 @@ from the command line. Do the following:
     at the beginning)
 6.  Save and exit
 
-
-<h2 id="test-installation">3: Test your installation</h2>
-
-Before we move on, let's make sure we installed git correctly.
-
--   **Windows 8:** Go to the start screen, and type "Powershell". Open the program.
--   **Not Windows 8:** Click "start", and type "Powershell" inside the "run" textbox. 
-    Open the program.
--   **Macs:** Open the console/command line/terminal whatever the hell it's called.
-    I don't own a mac, so idk where it's located (it might be under /Applications/Utilities)
--   **Linux:** Open the console/terminal.
-
-Type in `git`. A bunch of text should appear, displaying usage information. If your console 
-says it could not locate git, stop, and <a href="mailto:michael.lee.0x2a@gmail.com">email me</a>. 
-Something has gone wrong.
+If you don't have Windows, (or if the above didn't work), then 
+<a href="mailto:michael.lee.0x2a@gmail.com">email me</a> so I can help you debug.
 
 
 <h2 id="download-repo">4: Download a copy of the code</h2>
