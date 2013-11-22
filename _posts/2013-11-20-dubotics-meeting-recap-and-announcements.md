@@ -39,7 +39,7 @@ Here is a recap of last Thursday's General Meeting, as well as miscellaneous ann
     -   The **control team** has started organizing responsibilities and is waiting for delivery of
         parts. If you have any questions about the control team or are interested in helping, you 
         can contact Collin Sutton at 
-        <a href="mailto:cjsutton@wahington.edu">cjsutton@wahington.edu</a> or Luis Naranjo at
+        <a href="mailto:cjsutton@u.washington.edu">cjsutton@u.washington.edu</a> or Luis Naranjo at
         <a href="mailto:luisnaranjo733@gmail.com">luisnaranjo733@gmail.com</a>.
     -   The **chassis team** has all their major components except shock absorbers, and is working 
         on preparing metal pieces for construction. If the chassis fits your fancy, and you have    
