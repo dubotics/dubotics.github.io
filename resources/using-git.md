@@ -174,7 +174,7 @@ Let's make sure everything works!
 5.  Under the `contributors` section, add your name and your github username. My name should be up there -- use that as an example of how to format it.
 6.  Save the file
 7.  Push your changes to the repo (be sure to customize the commit message):  
-    `git add -A`
+    `git add -A`  
     `git commit -m "Testing: I added 'bob bobbly' as a contributer"`  
     `git push origin master`
 8.  Repeat steps 2 - 7 for the `robocrisp-robot` repo
