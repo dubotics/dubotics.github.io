@@ -39,6 +39,8 @@ carousel:
     images:
         - caption: Team Photo
           url: /assets/past_robots/team-photo.jpg
+        - caption: Finished Arm!
+          url: /assets/competition_2014/finished-arm.jpg
         - caption: Mars Rover
           url: /assets/competition_2013/full-rover.jpg
         - caption: Quadcopter
@@ -47,6 +49,22 @@ carousel:
     
 # Photo gallery config
 gallery:
+    - title: "University Rover Competition: 2014 Build"
+      images:
+        - caption: Machining parts 1
+          url: /assets/competition_2014/machining-parts-1.jpg
+        - caption: Machining parts 2
+          url: /assets/competition_2014/machining-parts-2.jpg
+        - caption: Machining parts 3
+          url: /assets/competition_2014/machining-parts-3.jpg
+        - caption: Drilling
+          url: /assets/competition_2014/drilling-1.jpg
+        - caption: More drilling
+          url: /assets/competition_2014/drilling-2.jpg
+        - caption: Chassis Skeleton
+          url: /assets/competition_2014/chassis-skeleton.jpg
+        - caption: Finished arm!
+          url: /assets/competition_2014/finished-arm.jpg
     - title: University Rover Competition (2013)
       images:
         - caption: Robot frame
