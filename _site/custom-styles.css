@@ -299,11 +299,12 @@ p+ul {
 
 .sponsor-unit{
     margin-bottom:15px;
+    margin-right:15px;
 }
 
 .sponsor-logo,
 .sponsor-logo img {
-    width:180px;
+    width:100px;
 }
 
 /* SIDEBAR

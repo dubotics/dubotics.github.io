@@ -85,9 +85,9 @@ gallery:
 # Meeting times and locations
 meeting_times:
     -   team_name: General Meetings
-        time: Thu, 5-6pm (biweekly)
-        location: SMI 120
-        url: http://uw.edu/maps/?smi
+        time: Thu, 6-7pm (biweekly)
+        location: MEB 238
+        url: http://uw.edu/maps/?meb
     -   team_name: Arm
         time: Fri, 5-6:30pm
         location: MEB 238
