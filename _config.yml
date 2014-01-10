@@ -8,6 +8,7 @@ markdown: redcarpet
 name: "DUBotics"
 description: "Robotics club at the University of Washington"
 url: "http://dubotics.github.io"
+relative: ""
 
 # Blog config
 excerpt_separator: <!--more-->
@@ -105,13 +106,13 @@ meeting_times:
     -   team_name: General Meetings
         time: Thu, 6-7pm (biweekly)
         location: MEB 238
-        url: http://uw.edu/maps/?meb
+        url: http://www.washington.edu/maps/?meb
     -   team_name: Arm
         time: Fri, 5-6:30pm
         location: MEB 238
-        url: http://uw.edu/maps/?meb
+        url: http://www.washington.edu/maps/?meb
     -   team_name: Control Systems
         time: Sat, 3-4pm
         location: MEB 238
-        url: http://uw.edu/maps/?meb
+        url: http://www.washington.edu/maps/?meb
         

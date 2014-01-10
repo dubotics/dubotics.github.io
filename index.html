@@ -17,7 +17,7 @@ code: true
             <div class="carousel-inner">
                 {% for image in site.carousel.images %}
                     <div class="item{% if forloop.first %} active{% endif %} container">
-                        <img src="{{ image.url }}" class="img-responsive" alt="{{ image.caption }}">
+                        <img src="{{ site.relative }}{{ image.url }}" class="img-responsive" alt="{{ image.caption }}">
                         <div class="container">
                             <div class="carousel-caption">
                                 <p>{{ image.caption }}</p>
@@ -36,7 +36,7 @@ code: true
             everything you need to know.
         </p>
         {% include meeting-times.html %}
-        <p><a class="btn btn-lg btn-primary" href="/teams.html">More info! &raquo;</a> <a class="btn btn-lg btn-primary" href="/sponsors.html">Sponsor us! &raquo;</a></p>
+        <p><a class="btn btn-lg btn-primary" href="{{ site.relative }}/teams.html">More info! &raquo;</a> <a class="btn btn-lg btn-primary" href="{{ site.relative }}/sponsors.html">Sponsor us! &raquo;</a></p>
     </div>
 </div>
 
@@ -44,14 +44,14 @@ code: true
 <div class="row">
     <div class="col-md-6">
         {% assign post = site.posts.first %}
-        <h2>Recent news: <a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2>Recent news: <a href="{{ site.relative }}{{ post.url }}">{{ post.title }}</a></h2>
         {{ post.excerpt }}
-        <p><a href="{{ post.url }}">(Read more &raquo;)</a></p>
+        <p><a href="{{ site.relative }}{{ post.url }}">(Read more &raquo;)</a></p>
     </div>
     <div class="col-md-6">
         <h2>About us</h2>
         <p>DUBotics is a multi-disciplinary engineering group that draws students from the 
-        <a href="http://uw.edu">University of Washington</a> to participate in constructing 
+        <a href="http://www.washington.edu">University of Washington</a> to participate in constructing 
         robots for several international competitions. Most recently, the team has been 
         participating in the <a href="http://urc.marssociety.org/">University Rover Challenge</a> 
         and has to date competed in one year of the competition, submitting our first entry: 
@@ -62,6 +62,6 @@ code: true
         leaders. Currently, anyone regardless of major or intended major is open to join 
         the team as most of the skills needed to participate can be learned on site.</p>
         
-        <p><a href="/about.html">(Read more &raquo;)</a></p>
+        <p><a href="{{ site.relative }}/about.html">(Read more &raquo;)</a></p>
     </div>
 </div>

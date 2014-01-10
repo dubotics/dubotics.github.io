@@ -5,6 +5,6 @@
 <ul class="listing">
     {% for category in site.categories %}
         {% assign name = category[0] %}
-        <li><a href="/{{ name }}">{{ name }}</a></li>
+        <li><a href="{{ site.relative }}/{{ name }}/">{{ name }}</a></li>
     {% endfor %}
 </ul>

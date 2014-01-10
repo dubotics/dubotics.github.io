@@ -10,7 +10,7 @@
             <div class="article-content">
                 {{ post.excerpt }}
             </div>
-            <p><a href="{{ post.url }}">Read more &raquo;</a></p>
+            <p><a href="{{ site.relative }}{{ post.url }}">Read more &raquo;</a></p>
         </div>
     {% endif %}
 {% endfor %}

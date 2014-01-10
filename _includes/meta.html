@@ -4,38 +4,38 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Webpage of the robotics team at the University of Washington (DUBotics)">
-        <link rel="author" href="humans.txt">
+        <link rel="author" href="{{ site.relative }}/humans.txt">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         
         <!-- Shortcut icons -->
-        <link rel="shortcut icon" href="/ico/favicon.ico">
+        <link rel="shortcut icon" href="{{ site.relative }}/ico/favicon.ico">
         
         <title>{{ page.title }} | DUBotics</title>
         
         <!-- Bootstrap core CSS -->
-        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ site.relative }}/css/bootstrap.css" rel="stylesheet">
         
         <!-- Font Awesome -->
-        <link href="/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ site.relative }}/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
         <!--[if lt IE 8]>
-            <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome-ie7.min.css">
+            <link rel="stylesheet" href="{{ site.relative }}/fonts/font-awesome/css/font-awesome-ie7.min.css">
         <![endif]-->
         {% if page.gallery %}
             <!-- Blueimp/Bootstrap Gallery -->
-            <link rel="stylesheet" href="/css/blueimp-gallery.min.css">
-            <link rel="stylesheet" href="/css/bootstrap-image-gallery.min.css">
+            <link rel="stylesheet" href="{{ site.relative }}/css/blueimp-gallery.min.css">
+            <link rel="stylesheet" href="{{ site.relative }}/css/bootstrap-image-gallery.min.css">
         {% endif %}
         
         {% if page.code %}
             <!-- Pygments -->
-            <link rel="stylesheet" href="/css/pygment-style.css">
+            <link rel="stylesheet" href="{{ site.relative }}/css/pygment-style.css">
         {% endif %}
         
         <!-- Custom styles for this template -->
-        <link href="/custom-styles.css" rel="stylesheet">
+        <link href="{{ site.relative }}/custom-styles.css" rel="stylesheet">
         
         <!-- IE7 and IE8 support (media queries and other CSS tweaks) -->
         <!--[if lt IE 9]>
-            <script type="text/javascript" src="/js/respond.min.js"></script>
+            <script type="text/javascript" src="{{ site.relative }}/js/respond.min.js"></script>
         <![endif]-->
     </head>

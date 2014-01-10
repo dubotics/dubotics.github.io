@@ -13,16 +13,16 @@ code: true
         <div class="article-content">
             {{ post.excerpt }}
         </div>
-        <p><a href="{{ post.url }}">Read more &raquo;</a></p>
+        <p><a href="{{ site.relative }}{{ post.url }}">Read more &raquo;</a></p>
     </div>
 {% endfor %}
 <!--
 <div class="pagination-indicators">
     {% if paginator.previous_page %}
-        <a href="/blog/page{{ paginator.previous_page }}">&laquo; Previous</a>
+        <a href="{{ site.relative }}/blog/page{{ paginator.previous_page }}">&laquo; Previous</a>
     {% endif %}
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-        <a href="/blog/page{{ paginator.next_page }}">Next &raquo;</a>
+        <a href="{{ site.relative }}/blog/page{{ paginator.next_page }}">Next &raquo;</a>
     {% endif %}
 </div>-->

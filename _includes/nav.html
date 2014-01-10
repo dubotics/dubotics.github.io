@@ -6,7 +6,7 @@
         {% endif %}
         
         <li class="{{ current }}">
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <a href="{{ site.relative }}{{ link.url }}">{{ link.title }}</a>
         </li>
     {% endfor %}
 </ul>

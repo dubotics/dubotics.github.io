@@ -50,28 +50,29 @@
             <![endif]-->
             <div class="page-header stripes">
                 <div class="page-header-inner clearfix">
-                    <a href="index.html" class="silent-link">
-                    <img src="/assets/DUBotics-Logo-Medium.jpg" width="60" height="60" class="main-logo pull-left" alt="logo">
+                    <a href="{{ site.relative }}/index.html" class="silent-link">
+                    <img src="{{ site.relative }}/assets/DUBotics-Logo-Medium.jpg" width="60" height="60" class="main-logo pull-left" alt="logo">
                     </a>
                     <div class="page-header-links pull-left">
                         {% if page.layout == "blog-post" %}
-                            <h1><a href="/" class="silent-link">
+                            <h1><a href="{{ site.relative }}/" class="silent-link">
                                 <span class="page-title">Article</span> 
                                 <span class="site-title">DUBotics</span>
                             </a></h1>
                         {% elsif page.title != "Home" %}
-                            <h1><a href="/" class="silent-link clearfix">
+                            <h1><a href="{{ site.relative }}/" class="silent-link clearfix">
                                 <span class="page-title">{{ page.title }}</span> 
                                 <span class="site-title">DUBotics</span>
                             </a></h1>
                         {% else %}
-                            <h1><a href="/" class="silent-link">
+                            <h1><a href="{{ site.relative }}/" class="silent-link">
                                 DUBotics
                             </a></h1>
                         {% endif %}
                         <div class="social-media">
-                            <p><a href="https://www.facebook.com/DUBotics"><i class="icon-facebook"></i></a>
-                                <a href="/rss.xml"><i class="icon-rss"></i></a>
+                            <p>
+                                <a href="https://www.facebook.com/DUBotics"><i class="icon-facebook"></i></a>
+                                <a href="{{ site.relative }}/rss.xml"><i class="icon-rss"></i></a>
                             </p>
                         </div>
                     </div>
@@ -101,7 +102,7 @@
                         {% endif %}
                     {% endfor %}
                     <ol class="breadcrumb">
-                        <li class="parent"><a href="{{ page.parent }}">{{ parent_name }}</a></li>
+                        <li class="parent"><a href="{{ site.relative }}{{ page.parent }}">{{ parent_name }}</a></li>
                         <li class="current">{{ page.title }}</li>
                     </ol>
                 {% endif %}
