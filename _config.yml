@@ -50,7 +50,103 @@ carousel:
     
 # Photo gallery config
 gallery:
-    - title: "University Rover Competition: 2014 Build"
+    - title: "University Rover Competition 2014: Crunch-time (Semester 2)"
+      images:
+        - caption: Fond memories
+          url: /assets/competition_2014/fond-memories.jpg
+          thumbnail: /assets/competition_2014/thumbnails/fond-memories.jpg
+        - caption: It's all greek to me
+          url: /assets/competition_2014/greek.jpg
+          thumbnail: /assets/competition_2014/thumbnails/greek.jpg
+        - caption: Planning
+          url: /assets/competition_2014/planning.jpg
+          thumbnail: /assets/competition_2014/thumbnails/planning.jpg
+        - caption: Planning 2
+          url: /assets/competition_2014/planning-2.jpg
+          thumbnail: /assets/competition_2014/thumbnails/planning-2.jpg
+        - caption: Planning 3
+          url: /assets/competition_2014/planning-3.jpg
+          thumbnail: /assets/competition_2014/thumbnails/planning-3.jpg
+        - caption: Planning 4
+          url: /assets/competition_2014/planning-4.jpg
+          thumbnail: /assets/competition_2014/thumbnails/planning-4.jpg
+        - caption: Planning 5
+          url: /assets/competition_2014/planning-5.jpg
+          thumbnail: /assets/competition_2014/thumbnails/planning-5.jpg
+        - caption: Planning 6
+          url: /assets/competition_2014/planning-6.jpg
+          thumbnail: /assets/competition_2014/thumbnails/planning-6.jpg
+        - caption: Designing the scientific station
+          url: /assets/competition_2014/designing-the-scientific-station.jpg
+          thumbnail: /assets/competition_2014/thumbnails/designing-the-scientific-station.jpg
+        - caption: Designing the electronics board
+          url: /assets/competition_2014/designing-electronics-board.jpg
+          thumbnail: /assets/competition_2014/thumbnails/designing-electronics-board.jpg
+        - caption: Debugging Woes
+          url: /assets/competition_2014/debugging-woes.jpg
+          thumbnail: /assets/competition_2014/thumbnails/debugging-woes.jpg
+        - caption: Smile
+          url: /assets/competition_2014/smile.jpg
+          thumbnail: /assets/competition_2014/thumbnails/smile.jpg
+        - caption: Discussion
+          url: /assets/competition_2014/discussion.jpg
+          thumbnail: /assets/competition_2014/thumbnails/discussion.jpg
+        - caption: Whiteboarding
+          url: /assets/competition_2014/whiteboarding.jpg
+          thumbnail: /assets/competition_2014/thumbnails/whiteboarding.jpg
+        - caption: Raw Stock
+          url: /assets/competition_2014/raw-stock.jpg
+          thumbnail: /assets/competition_2014/thumbnails/raw-stock.jpg
+        - caption: Treads
+          url: /assets/competition_2014/treads.jpg
+          thumbnail: /assets/competition_2014/thumbnails/treads.jpg
+        - caption: CNC Machine 1
+          url: /assets/competition_2014/cnc-machine-1.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-1.jpg
+        - caption: CNC Machine 2
+          url: /assets/competition_2014/cnc-machine-2.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-2.jpg
+        - caption: CNC Machine 3
+          url: /assets/competition_2014/cnc-machine-3.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-3.jpg
+        - caption: CNC Machine 4
+          url: /assets/competition_2014/cnc-machine-4.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-4.jpg
+        - caption: CNC Machine 5
+          url: /assets/competition_2014/cnc-machine-5.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-5.jpg
+        - caption: CNC Machine 6
+          url: /assets/competition_2014/cnc-machine-6.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-6.jpg
+        - caption: CNC Machine 7
+          url: /assets/competition_2014/cnc-machine-7.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-7.jpg
+        - caption: CNC Machine 8
+          url: /assets/competition_2014/cnc-machine-8.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-8.jpg
+        - caption: CNC Machine 9
+          url: /assets/competition_2014/cnc-machine-9.jpg
+          thumbnail: /assets/competition_2014/thumbnails/cnc-machine-9.jpg
+        - caption: Components
+          url: /assets/competition_2014/components-1.jpg
+          thumbnail: /assets/competition_2014/thumbnails/components-1.jpg
+        - caption: More components
+          url: /assets/competition_2014/components-2.jpg
+          thumbnail: /assets/competition_2014/thumbnails/components-2.jpg
+        - caption: Welding 1
+          url: /assets/competition_2014/welding-1.jpg
+          thumbnail: /assets/competition_2014/thumbnails/welding-1.jpg
+        - caption: Welding 2
+          url: /assets/competition_2014/welding-2.jpg
+          thumbnail: /assets/competition_2014/thumbnails/welding-2.jpg
+        - caption: Welding 3
+          url: /assets/competition_2014/welding-3.jpg
+          thumbnail: /assets/competition_2014/thumbnails/welding-3.jpg
+        - caption: Welding 4
+          url: /assets/competition_2014/welding-4.jpg
+          thumbnail: /assets/competition_2014/thumbnails/welding-4.jpg
+    
+    - title: "University Rover Competition 2014: Beginning to build (Semester 1)"
       images:
         - caption: Machining parts 1
           url: /assets/competition_2014/machining-parts-1.jpg
@@ -66,6 +162,10 @@ gallery:
           url: /assets/competition_2014/chassis-skeleton.jpg
         - caption: Finished arm!
           url: /assets/competition_2014/finished-arm.jpg
+        - caption: Finished arm 2
+          url: /assets/competition_2014/finished-arm-2.jpg
+        - caption: Arm closeup
+          url: /assets/competition_2014/prototype-arm-closeup.jpg
     - title: University Rover Competition (2013)
       images:
         - caption: Robot frame

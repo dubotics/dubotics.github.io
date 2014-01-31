@@ -21,7 +21,12 @@ gallery: true
         <div class="clearfix">
             {% for image in album.images %}
                 <a href="{{ site.relative }}{{ image.url }}" title="{{ image.caption }}" class="thumbnail gallery-thumbnail pull-left" data-gallery>
+                
+                {% if image.thumbnail %}
+                    <img src="{{ site.relative }}{{ image.thumbnail }}" alt="{{ image.caption }}" class="img-responsive">
+                {% else %}
                     <img src="{{ site.relative }}{{ image.url }}" alt="{{ image.caption }}" class="img-responsive">
+                {% endif %}
                 </a>
             {% endfor %}
         </div>
